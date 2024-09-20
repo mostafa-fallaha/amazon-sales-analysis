@@ -1,0 +1,22 @@
+CREATE TABLE `amazon_sales` (
+  `uniq_id` varchar(255) NOT NULL,
+  `product_name` text,
+  `manufacturer` varchar(255) DEFAULT NULL,
+  `price` varchar(45) DEFAULT NULL,
+  `purchase_date` varchar(45) DEFAULT NULL,
+  `ship_date` varchar(45) DEFAULT NULL,
+  `ship_country` varchar(45) DEFAULT NULL,
+  `number_available_in_stock` varchar(45) DEFAULT NULL,
+  `number_of_reviews` varchar(45) DEFAULT NULL,
+  `number_of_answered_questions` varchar(45) DEFAULT NULL,
+  `average_review_rating` varchar(45) DEFAULT NULL,
+  `amazon_category_and_sub_category` text,
+  `customers_who_bought_this_item_also_bought` text,
+  `description` text,
+  `product_information` text,
+  `product_description` text,
+  `items_customers_buy_after_viewing_this_item` text,
+  `customer_questions_and_answers` text,
+  `customer_reviews` text,
+  PRIMARY KEY (`uniq_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

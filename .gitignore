@@ -1,0 +1,6 @@
+Amazon Sales.pptx
+.env
+ETL/databases/amazon_dwh.sql
+ETL/databases/amazon_staging_1.sql
+ETL/databases/amazon_staging_2.sql
+.ipynb_checkpoints
